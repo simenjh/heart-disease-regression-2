@@ -8,7 +8,7 @@ The above project indicated that the trained linear model was suffering from hig
 
 ## The purposes of this project:
 * Visualize the cross-validation cost of different models. 
-* Aim to find a model with lower bias, using polynomial features (1D-6D).
+* Aim to find a model with lower bias, using polynomial features (1D-5D).
 * Analyze results.
 
 
