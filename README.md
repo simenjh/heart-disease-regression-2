@@ -17,6 +17,10 @@ Dataset: [Heart disease UCI](https://www.kaggle.com/ronitf/heart-disease-uci)
 
 All the trained models have been regularized.
 
+## Run program
+Call heart_disease(data_file) in heart_disease.py.
+
+
 <br/> <br/>
 
 ![](images/learning_curves.png?raw=true)
