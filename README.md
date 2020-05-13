@@ -17,6 +17,7 @@ Dataset: [Heart disease UCI](https://www.kaggle.com/ronitf/heart-disease-uci)
 
 All the trained models have been regularized.
 
+<br/> <br/>
 
 ![](images/learning_curves.png?raw=true)
 
@@ -26,10 +27,7 @@ As can be seen from the above figure, the variance is increasing with larger mod
 
 
 ## Key takeaways
-None of the higher-order polynomials beat the linear model in terms of bias-variance tradeoff.
-
-Possibly, other methods of feature expansion might give better results. Linear or cubic splines could be worth a shot.
-
-Training the higher-order polynomial models with more data is likely to bring down the variance.
-
-Methods like SVMs and neural networks in order to train more advanced models, might be worth exploring. 
+* None of the higher-order polynomials beat the linear model in terms of bias-variance tradeoff.
+* Possibly, other methods of feature expansion might give better results. Linear or cubic splines could be worth a shot.
+* Training the higher-order polynomial models with more data is likely to bring down the variance.
+* Methods like SVMs and neural networks in order to train more advanced models, might be worth exploring. 
