@@ -11,8 +11,7 @@ def heart_disease(data_file):
     X, y = data_processing.preprocess(dataset)
     # parameters = mt.init_parameters(n_features)
 
-    X_train, X_cv, y_train, y_cv = train_test_split(X, y, test_size=0.2)
-    X_train, X_test, y_train, y_test = train_test_split(X_train, y_train, test_size=0.25)
+    X_train, X_cv, y_train, y_cv = train_test_split(X, y, test_size=0.3)
     
 
     costs_dimensions = {"costs_train": [], "costs_cv": [], "dimensions": []}
